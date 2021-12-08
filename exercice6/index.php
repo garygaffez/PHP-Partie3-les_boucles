@@ -8,12 +8,10 @@
 </head>
 <body>
 
-<?php $age = 11;
+<?php 
 
-    if ($age >= 18) {
-        echo "Tu es majeur";
-    } else {
-        echo "Tu n'est pas majeur";
+    for ($number = 20; $number >= 0; $number--) {
+        echo "C'est presque bon".'<br>';
     }
 
 ?>

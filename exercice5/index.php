@@ -10,12 +10,10 @@
 </head>
 <body>
 
-<?php $gender = "femme";
+<?php 
 
-    if ($gender != "Homme") {
-        echo "C'est une développeuse !!!";
-    } else {
-        echo "C'est un développeur";
+    for ($number = 1; $number <16; $number++) {
+        echo "On y arrive presque".'<br>';
     }
 
 ?>

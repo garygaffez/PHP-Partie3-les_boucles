@@ -8,13 +8,13 @@
 </head>
 <body>
     
-    <?php $age = 37;
+    <?php $number = 0;
 
-    if ($age > 18) {
-        echo "Vous êtes majeur";
-    } else {
-        echo "Vous êtes mineur";
+    while ($number <= 10) {
+        echo $number.'<br>';
+        $number++;
     }
+
     ?>
 
 </body>

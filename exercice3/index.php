@@ -8,16 +8,12 @@
 </head>
 <body>
 
-    <?php $age = 17; $gender = "Femme";
+<?php $numberInit = 100; $numberEnd = 40;
 
-    if ($gender == "Homme" && $age >= 18) {
-        echo "Vous êtes un homme et vous êtes majeur";
-    } else if ($gender == "Homme" && $age < 18) {
-        echo "Vous êtes un homme et vous êtes mineur";
-    } else if ($gender == "Femme" && $age >= 18) {
-        echo "Vous êtes une femme et vous êtes majeur";
-    } else if ($gender == "Femme" && $age < 18) {
-        echo "Vous êtes une femme et vous êtes mineure";
+    while ($numberInit > 10) {
+        ($numberInit*$numberEnd);
+        echo ($numberInit*$numberEnd).'<br>';
+        $numberInit--;
     }
 
 ?>

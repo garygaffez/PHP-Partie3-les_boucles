@@ -8,25 +8,12 @@
 </head>
 <body>
 
-    <!--  methode 1 -->
+    <?php $numberInit = 0; $numberEnd = 40;
 
-    <?php $isEasy = true;
-
-    // if ($isEasy == true) {
-    //     echo "C'est facile !!";
-    // } else {
-    //     echo "C'est difficile !!!";
-    // }
-    ?>
-
-    <!-- methode 2 -->
-
-    <?php $isEasy = true;
-
-    if (! $isEasy) {
-        echo "C'est facile !!";
-    }else {
-        echo "C'est difficile !!!";
+    while ($numberInit <= 20) {
+        ($numberInit*$numberEnd);
+        echo ($numberInit*$numberEnd).'<br>';
+        $numberInit++;
     }
 
     ?>

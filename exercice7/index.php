@@ -8,15 +8,13 @@
 </head>
 <body>
 
-    <?php $isOK = true;
+<?php 
 
-        if ($isOK == false) {
-            echo "c'est pas bon !!!";
-        } else {
-            echo "c'est ok !";
-        }
+for ($number = 0; $number <= 100; $number = $number + 15) {
+    echo "C'est presque bon".'<br>';
+}
 
-    ?>
+?>
 
 </body>
 </html>
