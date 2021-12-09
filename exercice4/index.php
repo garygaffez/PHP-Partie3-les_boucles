@@ -12,9 +12,13 @@
 <body class="bg-dark">
 
 <?php
-    while ($number < 11) {
-        echo '<p class= "text-danger text-center h1 m-0">'.$number.'<p>'.'<br>';
-        $number = $number + 0.5;
+    while ($number < 11) { ?>
+        <p class="text-danger h1 text-center p-3">
+            <?=$number;?>
+        </p>
+    <?php
+    // permet d'incrémenter de la valeur que l'on souhaite
+        $number += $number / 2;
     }
 ?>
 

@@ -12,10 +12,10 @@
 
     
 <?php
-    while ($numberInit <= 20) {
-        ($numberInit*$numberEnd);
-        echo ($numberInit*$numberEnd).'<br>';
-        $numberInit++;
+    while ($numberInit <= 20) { ?>
+        <p><?=($numberInit*$numberEnd);?></p>
+        <?php 
+            $numberInit++;
     }
 ?>
 

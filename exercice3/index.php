@@ -11,10 +11,10 @@
 <body>
 
 <?php
-    while ($numberInit > 10) {
-        ($numberInit*$numberEnd);
-        echo ($numberInit*$numberEnd).'<br>';
-        $numberInit--;
+    while ($numberInit > 10) { ?>        
+        <p><?=($numberInit*$numberEnd);?></p>
+        <?php
+            $numberInit--;
     }
 ?>
 
