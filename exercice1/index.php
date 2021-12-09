@@ -1,3 +1,5 @@
+<?php $number = 0;?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,14 +10,12 @@
 </head>
 <body>
     
-    <?php $number = 0;
-
+<?php
     while ($number <= 10) {
         echo $number.'<br>';
         $number++;
     }
-
-    ?>
+?>
 
 </body>
 </html>

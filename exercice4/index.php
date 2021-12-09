@@ -1,3 +1,5 @@
+<?php $number = 1;?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,14 +11,11 @@
 </head>
 <body class="bg-dark">
 
-
-<?php $number = 1;
-
+<?php
     while ($number < 11) {
         echo '<p class= "text-danger text-center h1 m-0">'.$number.'<p>'.'<br>';
         $number = $number + 0.5;
     }
-
 ?>
 
 </body>

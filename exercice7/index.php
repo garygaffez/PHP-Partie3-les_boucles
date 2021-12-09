@@ -9,11 +9,9 @@
 <body>
 
 <?php 
-
-for ($number = 0; $number <= 100; $number = $number + 15) {
-    echo "C'est presque bon".'<br>';
+    for ($number = 0; $number <= 100; $number = $number + 15) {
+        echo "C'est presque bon".'<br>';
 }
-
 ?>
 
 </body>

@@ -1,3 +1,5 @@
+<?php $numberInit = 0; $numberEnd = 40;?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,16 +10,14 @@
 </head>
 <body>
 
-    <?php $numberInit = 0; $numberEnd = 40;
-
+    
+<?php
     while ($numberInit <= 20) {
         ($numberInit*$numberEnd);
         echo ($numberInit*$numberEnd).'<br>';
         $numberInit++;
     }
-
-    ?>
-
+?>
 
 </body>
 </html>

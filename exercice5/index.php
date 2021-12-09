@@ -11,11 +11,9 @@
 <body>
 
 <?php 
-
     for ($number = 1; $number <16; $number++) {
         echo "On y arrive presque".'<br>';
     }
-
 ?>
 
 </body>
