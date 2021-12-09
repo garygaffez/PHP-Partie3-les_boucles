@@ -11,8 +11,9 @@
 <body>
     
 <?php
-    while ($number <= 10) {
-        echo $number.'<br>';
+    while ($number < 10) { ?>
+        <p><?=$number;?></p>
+    <?php
         $number++;
     }
 ?>
